@@ -1,0 +1,428 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+*{
+  margin: 0%;
+  padding: 0%;
+  color: black;
+}
+.body{
+  margin: -5px;
+  background-color: #c9f0ec;
+}
+.form{
+  width: 800px;
+  height: 1560px;
+  border-radius: 10px;
+  margin-left: 350px;
+  margin-top: -130px;
+  -webkit-box-shadow: -1px 1px 5px 9px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px 1px 5px 9px rgba(0,0,0,0.75);
+  box-shadow: -1px 1px 5px 9px rgba(0,0,0,0.75);
+}
+.ctrlqHeaderMast {
+  height: 278px;
+  background: #009688;
+}
+
+
+.ctrlqFormContentWrapper {
+  display: flex;
+  -webkit-box-orient: vertical;
+  box-orient: vertical;
+  -webkit-flex-direction: column;
+  flex-direction: column
+}
+.header{
+  width: 800px;
+  height: 150px;
+  background-color: #009688;
+  border-bottom: 5px solid #282c34;
+}
+.header-p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: xx-large;
+  font-weight: 900;
+  padding-top: 30px;
+}
+.header-p1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: x-large;
+  font-weight: 700;
+  padding-top: 10px;
+}
+.main{
+  text-align: center;
+  height: 1250px;
+  width: 800px;
+  background-color: #e0f2f1;
+}
+.main-p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: large;
+  font-weight: 600;
+  padding-top: 30px;
+}
+.main-input{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: large;
+  font-weight: 600;
+  padding-top: 30px;
+  margin-top: 10px;
+  width: 400px;
+  border-radius: 10px;
+  border-width: 0px;
+  text-align: left;
+}
+.hr{
+  margin-left: 200px;
+  margin-top: 0px;
+  width: 395px;
+}
+.footer{
+  height: 150px;
+  background-color: #009688;
+  border-top: 5px solid #282c34;
+}
+.footer-button{
+  height: 50px;
+  width: 250px;
+  background-color: rgba(206, 208, 153, 0.647);
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: large;
+  font-weight: 600;
+  border-width: 0px;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+.day-select{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: large;
+  font-weight: 600;
+  height: 40px;
+  width: 135px;
+  border-radius: 10px;
+  border: 4px solid black;
+  margin-top: 20px;
+}
+.gender-button{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: large;
+  font-weight: 600;
+  height: 40px;
+  width: 175px;
+  border-radius: 10px;
+  border: 4px solid black;
+  margin-top: 20px;
+}
+.payment-method1{
+  height: 25px;
+  width: 75px;
+  border-radius: 10px;
+  border: 4px solid black;
+  margin-top: 35px;
+  margin-left: -40px;
+}
+.payment-method2{
+  height: 25px;
+  width: 75px;
+  border-radius: 10px;
+  border: 4px solid black;
+  margin-top: 35px;
+  margin-left: -84px;
+}
+.payment-label{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: large;
+  font-weight: 600;
+}
+.payment-input{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: large;
+  font-weight: 600;
+  height: 40px;
+  width: 275px;
+  border-radius: 10px;
+  border-width: 0px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.payment-input1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: large;
+  font-weight: 600;
+  height: 40px;
+  width: 275px;
+  border-radius: 10px;
+  border-width: 0px;
+  margin-top: 20px;
+  margin-left: 35px;
+}
+.payment-hr1{
+  margin-left: 303px;
+  width: 267px;
+}
+.payment-hr2{
+  margin-left: 283px;
+  width: 265px;
+}
+.payment-hr3{
+  margin-left: 347px;
+  width: 267px;
+}
+.payment-hr4{
+  margin-left: 283px;
+  width: 267px;
+}
+
+.terms-input{
+  height: 25px;
+  width: 75px;
+  border-radius: 10px;
+  border: 4px solid black;
+}
+.terms-label{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: large;
+  font-weight: 600;
+}
+.terms{
+  margin-top: 25px;
+}
+.hobby{
+  display: flex;
+  margin-top: 10px;
+  margin-left: 350px;
+}
+.hobby-list{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: large;
+  font: 500;
+  margin-top: 0px;
+}
+.hobby-delete{
+  background-color: #009688;
+  height: 24px;
+  width: 100px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font: 500;
+  margin-left: 40px;
+}
+.body{
+  background-color: #e9dfff;
+}
+.Expense-tracker{
+  height: 100%;
+  width: 100%;
+  background-color: #e9dfff;
+  text-align: center;
+}
+h2{
+  font-size: xx-large;
+  font-weight:bolder;
+  margin-left: -680px;
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+.input1{
+  height: 50px;
+  width: 300px;
+  border-radius: 5px;
+  border-width: 0px;
+  margin-left: 20px;
+  background-color: #bcbdbf;
+}
+input::placeholder{
+  padding-left: 20px;
+  font-size: large;
+  font-weight: 700;
+}
+.button-edit{
+  margin-top: -4px;
+  width: 64px;
+  height: 44px;
+  border-radius: 3px;
+  margin-left: -65px;
+}
+.input2{
+  height: 50px;
+  width: 300px;
+  border-radius: 5px;
+  border-width: 0px;
+  margin-left: 20px;
+  background-color:#b3f3b2;
+}
+.input3{
+  height: 50px;
+  width: 300px;
+  border-radius: 5px;
+  border-width: 0px;
+  margin-left: 20px;
+  background-color: #91bfff;
+}
+.h3-1{
+  font-size: x-large;
+  font-weight:bolder;
+  margin-left: -750px;
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+.info{
+  display: flex;
+}
+.name{
+  font-size: x-large;
+  font-weight:bolder;
+  margin-left: 400px;
+  margin-top: -10px;
+}
+.cost{
+  font-size: x-large;
+  font-weight:bolder;
+  margin-left: 450px;
+  margin-top: -10px;
+}
+.input4{
+  height: 50px;
+  width: 300px;
+  border-radius: 5px;
+  border-width: 0px;
+  margin-left: 80px;
+}
+.input5{
+  height: 50px;
+  width: 300px;
+  border-radius: 5px;
+  border-width: 0px;
+  margin-left: 220px;
+}
+.button-save{
+  height: 40px;
+  width: 100px;
+  margin-top: 20px;
+  margin-right: 640px;
+}
+.h3-2{
+  font-size: x-large;
+  font-weight:bolder;
+  margin-left: -800px;
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+.input6{
+  height: 50px;
+  width: 600px;
+  border-radius: 5px;
+  border-width: 0px;
+  margin-left: -310px;
+}
+.list-item{
+  margin-left: 300px;
+  margin-top: 10px;
+  width: 600px;
+  font-size: x-large;
+  font-weight: 800;
+}
+.btn-close{
+  height: 13px;
+  width: 13px;
+  align-items: end;
+}
+
+.Badge{
+  margin-top: 120px;
+  font-size: larger;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 700;
+  color: white;
+}
+.Tenzie-h3{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: xx-large;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 700;
+  color: white;
+}
+.dice{
+  width: 90px;
+  height: 90px;
+  border-radius: 10px;
+}
+.dice-box{
+  width: 450px;
+  height: 180px;
+  margin-left: 550px;
+}
+.roll{
+  height: 40px;
+  width: 120px;
+  margin-top: 30px;
+  margin-right: 90px;
+}
+.reset{
+  height: 40px;
+  width: 120px;
+  margin-top: 30px;
+}
+.tenzie-info{
+  height: 180px;
+  width: 250px;
+  margin-left: 230px;
+  margin-top: 40px;
+}
+.Timer{
+  margin-left: -90px;
+}
+.timer{
+  margin-top: -30px;
+  margin-left: 60px;
+}
+.fast-time{
+  margin-top: 10px;
+  margin-left: -20px;
+}
+.dice-image{
+  height: 65px;
+  width: 65px;
+}
+.body-tenzie{
+  background-color: #04152c;
+}
